@@ -6,9 +6,9 @@ import { Menu, Transition } from '@headlessui/react'
 import { BellIcon,  } from '@heroicons/react/24/outline'
 import { useState } from 'react';
 const navigation = [
-    { name: 'Ordenes', href: '#', current: true },
+    { name: 'Ordenes', href: '/dashboard', current: false },
     { name: 'Pagos', href: '#', current: false },
-    { name: 'Almacen', href: '#', current: false },
+    { name: 'Entregas', href: '/deliveries', current: false },
     { name: 'Cuota', href: '#', current: false },
   ]
   function classNames(...classes) {
